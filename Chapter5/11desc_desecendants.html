@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>4. 후손 선택자와 자손 선택자</title>
+    <style>
+        #header h1 { color: green;}
+        #section h1 { color: greenyellow;}
+        #header h1, h2 {color: skyblue;}
+        /* #header h1, h2 {color:green;} */
+        /* #header h1, #header h2 {color: greenyellow;} */
+    </style>
+</head>
+<body>
+    <h3>1. 후손 선택자: 특정한 태그의 후손을 선택 (선택자A 선택자B)</h3>
+    <hr>
+    <div id="header">
+        <h1 class="title">치이카와</h1>
+        <div id="nav">
+            <h1>랏코</h1>
+            <h2>*section안의 h2--CSS3 Selector Basic</h2>
+        </div>
+    </div>
+    <div id="section">
+        <h1 class="title">쿠리만쥬</h1>
+        <h2>*section안의 h2--CSS3 Selector Basic</h2>
+        <p>먼작귀</p>
+    </div>
+</body>
+</html>
